@@ -9,7 +9,11 @@ Prosjektet benytter OpenCV for bildeprosessering og CUDA 12.3 for GPU-akselerasj
 Før du kan kjøre algoritmene, må du ha følgende installert:
 
 OpenCV
+
 CUDA 12.3 (for GPU-algoritmene)
+
 PyTorch
+
 CUDA 11.8 (for YOLOv8 GPU-algoritmene)
+
 YOLOv8
