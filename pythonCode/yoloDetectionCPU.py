@@ -53,7 +53,7 @@ while videoCapture.isOpened():
         # viser FPS på bildet
         fps = 1 / inferenceTime # regner ut FPS
         totalFPS += fps  # legger til FPS-verdien for hver ramme
-        cv2.putText(markedFrame, f"FPS: {int(fps)}", (10, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2) # ChatGPT
+        cv2.putText(markedFrame, f"FPS: {int(fps)}", (10, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2) 
 
         # viser resultatet i eget vindu
         cv2.imshow("YOLOv8 Inference", markedFrame)
